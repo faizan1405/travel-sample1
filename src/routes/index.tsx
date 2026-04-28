@@ -70,7 +70,7 @@ function HomePage() {
         <div className="absolute inset-0 bg-gradient-to-b from-primary/40 via-primary/20 to-primary/85" />
         <div className="absolute inset-0 bg-gradient-to-r from-primary/60 via-transparent to-transparent" />
 
-        <div className="container-wide relative z-10 pt-32 pb-20">
+        <div className="container-wide relative z-10 pt-32 pb-12 md:pb-40">
           <div className="max-w-3xl text-white animate-fade-up">
             <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur border border-white/20 text-xs font-semibold tracking-widest uppercase mb-6">
               <Sparkles className="size-3.5 text-gold" />
@@ -119,8 +119,8 @@ function HomePage() {
         </div>
 
         {/* Stats strip */}
-        <div className="absolute bottom-0 inset-x-0 hidden md:block">
-          <div className="container-wide pb-6">
+        <div className="absolute bottom-6 inset-x-0 hidden md:block pointer-events-none">
+          <div className="container-wide">
             <div className="grid grid-cols-4 gap-px bg-white/10 rounded-2xl overflow-hidden border border-white/15 backdrop-blur">
               {stats.map((s) => (
                 <div key={s.l} className="bg-primary/40 backdrop-blur px-6 py-5 text-white text-center">
