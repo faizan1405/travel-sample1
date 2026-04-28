@@ -29,14 +29,16 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "TripZip Holidays — Affordable Luxury Tour Packages | India & International" },
+      { name: "description", content: "Domestic and international tour packages across PAN India. Honeymoon, group, adventure & weekend getaways with TripZip Holidays." },
+      { name: "author", content: "TripZip Holidays" },
+      { name: "keywords", content: "TripZip Holidays, Best Tour Packages India, International Travel Packages, Affordable Holiday Packages, Honeymoon Packages India, Travel Agency India" },
+      { property: "og:title", content: "TripZip Holidays — Explore the World" },
+      { property: "og:description", content: "Curated holiday packages for couples, friends and adventurers across India and beyond." },
       { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
+      { property: "og:site_name", content: "TripZip Holidays" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:site", content: "@tripzipholidays" },
     ],
     links: [
       {
