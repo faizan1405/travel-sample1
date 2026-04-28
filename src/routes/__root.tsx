@@ -33,12 +33,16 @@ export const Route = createRootRoute({
       { name: "description", content: "Domestic and international tour packages across PAN India. Honeymoon, group, adventure & weekend getaways with TripZip Holidays." },
       { name: "author", content: "TripZip Holidays" },
       { name: "keywords", content: "TripZip Holidays, Best Tour Packages India, International Travel Packages, Affordable Holiday Packages, Honeymoon Packages India, Travel Agency India" },
-      { property: "og:title", content: "TripZip Holidays — Explore the World" },
-      { property: "og:description", content: "Curated holiday packages for couples, friends and adventurers across India and beyond." },
+      { property: "og:title", content: "TripZip Holidays — Affordable Luxury Tour Packages | India & International" },
+      { property: "og:description", content: "Domestic and international tour packages across PAN India. Honeymoon, group, adventure & weekend getaways with TripZip Holidays." },
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "TripZip Holidays" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@tripzipholidays" },
+      { name: "twitter:title", content: "TripZip Holidays — Affordable Luxury Tour Packages | India & International" },
+      { name: "twitter:description", content: "Domestic and international tour packages across PAN India. Honeymoon, group, adventure & weekend getaways with TripZip Holidays." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7434050c-7ba8-4606-beb6-bb38b9759e3f/id-preview-769b0c63--c2e92dfc-1fdd-4ca2-8367-9cd24a0b99c8.lovable.app-1777398778722.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7434050c-7ba8-4606-beb6-bb38b9759e3f/id-preview-769b0c63--c2e92dfc-1fdd-4ca2-8367-9cd24a0b99c8.lovable.app-1777398778722.png" },
     ],
     links: [
       {
