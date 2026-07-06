@@ -6,4 +6,12 @@
 // You can pass additional config via defineConfig({ vite: { ... } }) if needed.
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
-export default defineConfig();
+// Deployed to Vercel as a static SPA (no server functions/loaders in this app).
+// SPA mode prerenders a static shell (index.html) that does client-side routing.
+export default defineConfig({
+  tanstackStart: {
+    spa: {
+      enabled: true,
+    },
+  },
+});
