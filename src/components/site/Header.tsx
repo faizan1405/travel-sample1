@@ -32,9 +32,7 @@ export function Header() {
     >
       <div className="container-wide flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2.5 group">
-          <span className={`size-9 rounded-xl flex items-center justify-center transition ${scrolled ? "bg-primary text-primary-foreground" : "bg-white/15 backdrop-blur text-white"}`}>
-            <Plane className="size-5 -rotate-45" strokeWidth={2.2} />
-          </span>
+          <img src="/favicon.png" alt="TripZip Holidays logo" className="size-9 rounded-xl object-cover shrink-0 shadow-sm" />
           <span className="flex flex-col leading-none">
             <span className={`font-display font-bold text-lg tracking-tight ${scrolled ? "text-foreground" : "text-white"}`}>
               TripZip<span className="text-gold">.</span>
